@@ -23,8 +23,124 @@ body{
     max-width: 1200px;
 }
 
+.header-top ul{
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.header-top ul li a{
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 18px;
+}
+
 .header-top{
     display: flex;
     justify-content: space-between;
+    padding: 14px 0;
+    align-items: center;
 }
 
+button{
+    border: none;
+    border-radius: 100px;
+    padding: 12px 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: var(--primary);
+    color: var(--invert);
+}
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    /* margin-top: 110px; */
+    
+}
+
+.about .page-center {
+    margin-top: 110px;
+}
+
+.about-content{
+    display: flex;
+    gap: 90px;
+}
+
+.about-content p {
+    width: 70%;
+    height: 108px;
+}
+
+.group-card{
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    border-radius: 48px;
+    padding: 24px;
+    flex: 1;
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label{
+    border: 1px solid var(--ink);
+    padding: 10px;
+    border-radius: 100px;
+    width: fit-content;
+}
+
+
+.green{
+    background-color: var(--accent-green);
+}
+
+.orange{
+    background-color: var(--accent-orange);
+}
+
+.blue{
+    background-color: var(--accent-blue);
+}
+
+
+
+
+/* Dekstop */
+@media(min-width: 768px){
+    .hero-content{
+        gap: 40px;
+    }
+}
+
+
+
+
+/* Mobile */
+@media (max-width: 768px){
+    .hero-content{
+        flex-direction: column;
+    }
+
+    .about-content{
+        position: relative;
+    }
+
+    .about-content img{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
