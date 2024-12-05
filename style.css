@@ -194,9 +194,26 @@ img.bottom-quote{
     background-size: cover;
     padding: 200px 0;
     text-align: center;
+    margin-top: 120px;
 }
 
 /* Footer */
+.footer-content{
+    margin-top: 100px;
+    border-top: 1px solid var(--ink);
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 0;
+}
+
+.main-footer .footer-1{
+    font-weight: 700;
+    line-height: 32px;
+    
+}
 
 
 
