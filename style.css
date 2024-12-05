@@ -47,7 +47,7 @@ body{
 button{
     border: none;
     border-radius: 100px;
-    padding: 12px 24px;
+    padding: 16px 24px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -60,8 +60,23 @@ button{
 .hero-content{
     display: flex;
     align-items: center;
-    /* margin-top: 110px; */
+    margin-top: 104px;
     
+}
+
+.hero-content h1{
+    font-size: 48px;
+}
+
+.hero-content p{
+    width: 445px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-content{
+    width: 526px;
 }
 
 .about .page-center {
@@ -76,6 +91,12 @@ button{
 .about-content p {
     width: 70%;
     height: 108px;
+    line-height: 36px;
+    color: var(--ink);
+}
+
+.about-content p span{
+    font-weight: bold;
 }
 
 .group-card{
