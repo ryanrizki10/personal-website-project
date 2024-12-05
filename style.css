@@ -184,6 +184,7 @@ img.bottom-quote{
     right: 0;
     transform: rotate(180deg);
     z-index: 9999;
+    margin: 20px;
 }
 
 /* Contact */
@@ -196,6 +197,9 @@ img.bottom-quote{
 }
 
 /* Footer */
+
+
+
 
 
 
