@@ -108,6 +108,7 @@ button{
     border-radius: 48px;
     padding: 24px;
     flex: 1;
+    width: 550px;
 }
 
 .card-top{
@@ -136,6 +137,65 @@ button{
     background-color: var(--accent-blue);
 }
 
+.project-content {
+    margin-top: 125px;
+}
+
+.project-content h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 52px;
+}
+
+
+/* Testimoni */
+.testimoni-content{
+    margin: 159px 0 60px 0;
+    width: 1200px;
+}
+
+.testimoni-content h2{
+    margin: 60px auto;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    word-wrap: break-word;
+    line-height: 40px;
+    font-size: 32px;
+    
+}
+
+.testimoni-item{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.box{
+    padding: 32px;
+    background-color: var(--subtle);
+    border-radius: 16px;
+    position: relative;
+}
+
+img.bottom-quote{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    transform: rotate(180deg);
+    z-index: 9999;
+}
+
+/* Contact */
+.contact-content{
+    background-image: url(assets/BannerContact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+}
+
+/* Footer */
 
 
 
