@@ -4,6 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Jquery Pertama -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Slick CSS -->
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -46,7 +57,8 @@
     <section class="about">
         <div class="page-center">
             <div class="about-content">
-                <p>I’m a <span>software engineer</span> with expertise in developing scalable, high-performance applications. With a
+                <p>I’m a <span>software engineer</span> with expertise in developing scalable, high-performance
+                    applications. With a
                     strong foundation in both <span>front-end</span> and <span>back-end</span> technologies,
                     I enjoy crafting solutions that are as elegant as they are effective</p>
                 <img src="/assets/VectorStar.png" alt="star" width="32px" height="32px">
@@ -75,7 +87,7 @@
                     </div>
                     <div class="card orange">
                         <div class="card-top">
-                            <img src="assets/IconButton.png" alt="icon-button" height="42px" width="42px" >
+                            <img src="assets/IconButton.png" alt="icon-button" height="42px" width="42px">
                             <img src="assets/CardImage2.png" alt="cardimage2">
                         </div>
                         <div class="card-bottom">
@@ -106,19 +118,39 @@
         <div class="page-center">
             <div class="testimoni-content">
                 <h2>What People Say About Working with Me</h2>
-                <div>
-                    <div class="testimoni-item">
-                        <img src="assets/Levi.png" alt="Levi">
-                        <div class="box">
-                            <img src="assets/Quote.png" alt="quote" width="32px" height="32px">
-                            <p>Working with Mario has been a fantastic experience. Their dedication to code quality and
-                                attention to detail made a significant impact on our project. A true asset to any team!
-                            </p>
-                            <p><b>Levi</b></p>
-                            <p>VP of Engineering</p>
-                            <img src="assets/Quote.png" alt="quote" class="bottom-quote">
+                <div class="container">
+                    <div class="carousel">
+                        <!-- item 1 -->
+                        <div class="testimoni-item">
+                            <img src="assets/Levi.png" alt="Levi">
+                            <div class="box">
+                                <img src="assets/Quote.png" alt="quote" width="32px" height="32px">
+                                <p>Working with Mario has been a fantastic experience. Their dedication to code quality
+                                    and
+                                    attention to detail made a significant impact on our project. A true asset to any
+                                    team!
+                                </p>
+                                <p><b>Levi</b></p>
+                                <p>VP of Engineering</p>
+                                <img src="assets/Quote.png" alt="quote" class="bottom-quote">
+                            </div>
                         </div>
-                    </div>
+                        <!-- item 2 -->
+                        <div class="testimoni-item">
+                            <img src="assets/Levi.png" alt="Levi">
+                            <div class="box">
+                                <img src="assets/Quote.png" alt="quote" width="32px" height="32px">
+                                <p>Working with Mario has been a fantastic experience. Their dedication to code quality
+                                    and
+                                    attention to detail made a significant impact on our project. A true asset to any
+                                    team!
+                                </p>
+                                <p><b>Levi</b></p>
+                                <p>VP of Engineering</p>
+                                <img src="assets/Quote.png" alt="quote" class="bottom-quote">
+                            </div>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
@@ -150,6 +182,10 @@
         </div>
     </footer>
     <!-- End Of Footer -->
+
+    <script src="script.js"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 </body>
 

@@ -150,8 +150,20 @@ button{
 
 /* Testimoni */
 .testimoni-content{
-    margin: 159px 0 60px 0;
+    margin: 159px auto 60px auto;
     width: 1200px;
+    /* background-color: #3450F3; */
+}
+
+.carousel{
+    /* background-color: peachpuff; */
+    width: 70%;
+    margin: 60px auto;
+}
+
+.testimoni-item{
+    /* background-color: black; */
+    margin: 40px auto;
 }
 
 .testimoni-content h2{
@@ -176,6 +188,8 @@ button{
     background-color: var(--subtle);
     border-radius: 16px;
     position: relative;
+    width: 700px;
+    
 }
 
 img.bottom-quote{
@@ -244,5 +258,15 @@ img.bottom-quote{
         position: absolute;
         right: 0;
         top: 0;
+    }
+
+    .header-top nav{
+        display: none;
+    }
+
+    .page-center{
+        width: 50%;
+        margin: 0 auto;
+        max-width: 700px;
     }
 }
